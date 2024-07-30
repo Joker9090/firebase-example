@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+html,
+main {
+  margin: 0px;
+
+  .firebaseui-container {
+    margin: 0;
+    .firebaseui-card-content {
+      padding: 0;
+    }
+    .firebaseui-idp-button {
+      max-width: 100%;
+    }
+  }
+}
+
+body {
+  margin: 0px;
+  background: blanchedalmond;
+}
